@@ -1,0 +1,130 @@
+.feed_itm {
+    position:relative;
+    background: no-repeat center center;
+    background-size:cover;
+    border: 1px solid white ;
+    background-color: black;
+    padding: 0px;    
+    margin: 0px;
+    height:250px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.feed_itm_inr {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(3,3,3,0.0);
+    color: white;
+}
+
+
+.feed_itm:hover .feed_itm_inr {
+    background-color: rgba(3,3,3,0.3);
+}
+
+.feed_itm:hover > .feed_itm_inr:before {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+   font-size:4em;
+   color: rgba(255,255,255,0.8);
+   font-family: FontAwesome;
+   content: "\f002";
+}
+
+.feed_itm_ttl {
+    margin: 5px 0 0 0;
+}
+
+.feed_itm_prc {
+    margin: 0!important;
+}
+
+.image-block dl, .item_dtls dl {
+    margin: 0 0 0 10px!important;
+}
+
+.item_desc {
+    padding: 0 0 10px 10px;
+}
+.item_dtls {
+    padding: 0 10px 10px 0;
+}
+
+
+.feed_itm_ttl, .item_dtls dt {
+    font-size:1.2em;
+    font-weight: 200!important;
+    letter-spacing: .02em;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.item_desc *, .item_dtls * {
+    line-height: 1.4!important;
+}
+
+.feed_itm_prc, .item_dtls dd {
+    font-size: 14px!important;
+    font-weight:100;
+    color: #BFCFD1;
+}
+
+
+ 
+.item_desc
+{
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;  
+}
+
+.feed_itm_inr .item_dtls {
+    padding-right: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+}
+
+
+.feed_itm_inr .btn_fav {
+  display: block;
+  margin: 10px 10px 0 0;
+  position: absolute;
+  top: 0;
+  background-color:transparent;
+  border:none;
+  color: white;
+}
+.feed_itm_inr .btn_fav {
+    right: 0;
+    width: 18px;
+    padding: 0!important;
+}
+
+
+.btn_fav .fa-heart {
+    color: rgba(239, 51, 26, 0.75);
+}
+
+
+    
+
+.feed_itm_inr.gradient-black{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height:100%;
+    background: -moz-linear-gradient(top,rgba(0,0,0,0) 65%, rgba(0,0,0,0.55) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 65%,rgba(0,0,0,0.55) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 65%,rgba(0,0,0,0.55) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+    

@@ -1,0 +1,26 @@
+Databases===
+                  databases are used to store information in a structured manner.there are multiple databases engines available like my sql ,sql server,oracle db,sqlite etc.
+in python u can use any kind of database but the popular ones are sqlite ,my sql,postgre.
+
+sqlite is a self contain high reliability, embedded,full featured and public domain sql database engine.
+sqlite is the mostly widely deployed and used database engine.sql is found in -every android device ,iphone,ios,mac,windows 10
+sqlite is used by firefox,chrome nd safari browser it is also found in skype,dropbox,itunes,quickbook,telivision sets,setboxes ,multimedia systems.
+it is also relational database.Sqlite doesnot have a separate server process.sqlite reads and writes directly to a ordinary disc file.Acomplete sql database with multiple tables is contained in single file.
+the databse filee a cross plateform.
+
+
+steps
+1.connection to db
+2.create table with schema
+3.insert data
+4.read data
+
+work in database.
+c=create
+r=retrive
+u=update
+d=delete
+
+
+procedure 
+trigger
